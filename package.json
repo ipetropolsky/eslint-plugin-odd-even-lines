@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-odd-even-lines",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "dist/**"
+  ],
+  "repository": "https://github.com/ipetropolsky/eslint-plugin-odd-even-lines",
+  "scripts": {
+    "postinstall": "bash tools/postinstall.sh",
+    "test": "node odd-even-lines.test.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "8.55.0",
+    "eslint": "8.55.0",
+    "globals": "15.0.0",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5"
+  },
+  "packageManager": "yarn@4.1.1"
+}
