@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "files": [
-    "dist/**"
+    "index.js",
+    "odd-even-lines.js"
   ],
   "repository": "https://github.com/ipetropolsky/eslint-plugin-odd-even-lines",
   "scripts": {
