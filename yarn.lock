@@ -346,12 +346,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-odd-even-lines@git@github.com:ipetropolsky/eslint-plugin-odd-even-lines.git":
+  version: 0.0.1
+  resolution: "eslint-plugin-odd-even-lines@git@github.com:ipetropolsky/eslint-plugin-odd-even-lines.git#commit=7ad4b440881097093a7afaa45b2acdcf29a13461"
+  checksum: 10c0/74635dada261173aa0c0aaf70d9cee1d66cfdec8ab2d06e89e348c4354d65679fa0da0630ff091ae9219c0d7b63be31efec980786fdf3a745d644533d43f1378
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-odd-even-lines@workspace:.":
   version: 0.0.0-use.local
   resolution: "eslint-plugin-odd-even-lines@workspace:."
   dependencies:
     "@eslint/js": "npm:8.55.0"
     eslint: "npm:8.55.0"
+    eslint-plugin-odd-even-lines: "git@github.com:ipetropolsky/eslint-plugin-odd-even-lines.git"
     globals: "npm:15.0.0"
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"

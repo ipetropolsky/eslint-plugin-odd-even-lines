@@ -14,6 +14,7 @@
   "devDependencies": {
     "@eslint/js": "8.55.0",
     "eslint": "8.55.0",
+    "eslint-plugin-odd-even-lines": "git@github.com:ipetropolsky/eslint-plugin-odd-even-lines.git",
     "globals": "15.0.0",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5"

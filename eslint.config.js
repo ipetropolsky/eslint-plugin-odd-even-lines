@@ -1,7 +1,7 @@
 const eslintJs = require('@eslint/js');
 const globals = require('globals');
 
-const eslintPluginExample = require('./index');
+const eslintPluginOddEvenLines = require('eslint-plugin-odd-even-lines');
 
 module.exports = [
     {
@@ -24,7 +24,7 @@ module.exports = [
         languageOptions: {
             sourceType: 'module',
         },
-        plugins: { 'hh-holyjs-2024': eslintPluginExample },
+        plugins: { 'hh-holyjs-2024': eslintPluginOddEvenLines },
         rules: {
             'hh-holyjs-2024/odd-even-lines': 'warn',
         },
