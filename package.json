@@ -7,7 +7,7 @@
   ],
   "repository": "https://github.com/ipetropolsky/eslint-plugin-odd-even-lines",
   "scripts": {
-    "postinstall": "bash tools/postinstall.sh",
+    "postinstall": "echo 333",
     "test": "node odd-even-lines.test.js"
   },
   "devDependencies": {
